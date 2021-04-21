@@ -32,8 +32,5 @@ public class Main {
         alyssaLicense.dataPrinter();
         almaLicense.dataPrinter();
         alyssaLicenseCopy.dataPrinter();
-
-
     }
-
 }

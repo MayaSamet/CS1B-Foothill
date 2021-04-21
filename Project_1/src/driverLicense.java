@@ -30,9 +30,20 @@ public class driverLicense {
     }
 
     // 2 overloaded constructors
-    public driverLicense(String address){
+    public driverLicense(String address, String name, int weight){
         numberGenerator(address);
         this.address = address;
+        this.name = name;
+        this.weight = weight;
+        licenseCount++;
+    }
+
+    public driverLicense(String address, String name, String eyeColor){
+        numberGenerator(address);
+        this.address = address;
+        this.name = name;
+        this.eyeColor = eyeColor;
+        licenseCount++;
     }
 
 

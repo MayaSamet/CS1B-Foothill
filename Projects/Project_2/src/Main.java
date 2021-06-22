@@ -5,14 +5,15 @@
 
 public class Main {
     public static void main(String[] args) {
-        boundedStack myStack = new boundedStack();
+        boundedStack spellStack = new boundedStack();
 
-        System.out.println("~** Welcome to Maji **~");
-        myStack.load();
-        myStack.pop();
+        System.out.println("~**~** Welcome to Maji **~**~");
+        spellStack.load();
+        spellStack.pop();
+
         // load again so that unload displays 50 total values
-        //myStack.load();
-        //myStack.unload();
+        spellStack.load();
+        spellStack.unload();
         // remember to paste output into txt and submit with .java files
     }
 }

@@ -10,13 +10,13 @@ public class boundedStack {
     ArrayDeque<Double> spellDeque = new ArrayDeque<Double>();
 
     public void load() {
-        // get user input in loop. After 50 values remove oldest value
-
         // Create an instance of the Scanner class
         Scanner input = new Scanner(System.in);
         Double spell = 0.0;
 
         System.out.println("~**\"Load\" spellcasting mode**~");
+
+        // get user input in loop. After 50 values remove oldest value
         while (true) {
             System.out.print("Enter spell potency (any non-num to quit): ");
             try {
@@ -46,7 +46,7 @@ public class boundedStack {
 
     public void unload(){
         // loop to display and remove the most recently added value in the ArrayDeque until empty
-        // Should display 50 total values (5 during testing)
+        // Should display 50 total values
         System.out.println("~**\"Unload\" spellcasting mode**~");
         while (spellDeque.size() > 0) {
             Double newestSpell = spellDeque.pop();

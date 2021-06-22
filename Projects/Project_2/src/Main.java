@@ -14,6 +14,5 @@ public class Main {
         // load again so that unload displays 50 total values
         spellStack.load();
         spellStack.unload();
-        // remember to paste output into txt and submit with .java files
     }
 }

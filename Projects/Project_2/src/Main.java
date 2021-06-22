@@ -9,7 +9,7 @@ public class Main {
 
         System.out.println("~** Welcome to Maji **~");
         myStack.load();
-        //myStack.pop();
+        myStack.pop();
         // load again so that unload displays 50 total values
         //myStack.load();
         //myStack.unload();

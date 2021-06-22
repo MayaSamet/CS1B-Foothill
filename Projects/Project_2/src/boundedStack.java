@@ -16,7 +16,7 @@ public class boundedStack {
         Double spell = 0.0;
 
         while (true) {
-            System.out.print("Enter spell potency (any non-Float to quit): ");
+            System.out.print("Enter spell potency (any non-num to quit): ");
             try {
                 spell = input.nextDouble();
             } catch (Exception e) {
@@ -36,9 +36,12 @@ public class boundedStack {
         }
     }
 
-    //public void pop(){
-        // display and remove the most recently added value from the ArrayDeque
-    //}
+    public void pop(){
+        //display and remove the most recently added value from the ArrayDeque
+        Double firstSpell = spellDeque.pop();
+        System.out.println("\"Pop\" spellcasting mode: ");
+        System.out.println("Unleashing most recently added spell with potency " + firstSpell);
+    }
 
     //public void unload(){
         // loop to display and remove the most recently added value in the ArrayDeque until empty

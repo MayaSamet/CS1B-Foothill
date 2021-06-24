@@ -50,6 +50,8 @@ public class Main {
         char c6 = (char) filey.read();
         System.out.println(c6);
 
+        verifyIndex.verifyIndex(4);
+
 
     }
 }

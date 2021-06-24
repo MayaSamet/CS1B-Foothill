@@ -1,0 +1,174 @@
+~**~** Welcome to Maji **~**~
+~**"Load" spellcasting mode**~
+Enter spell potency (any non-num to quit): 1
+Spell added with potency 1.0
+Enter spell potency (any non-num to quit): 2
+Spell added with potency 2.0
+Enter spell potency (any non-num to quit): 3
+Spell added with potency 3.0
+Enter spell potency (any non-num to quit): 4
+Spell added with potency 4.0
+Enter spell potency (any non-num to quit): 5
+Spell added with potency 5.0
+Enter spell potency (any non-num to quit): 6
+Spell added with potency 6.0
+Enter spell potency (any non-num to quit): 7
+Spell added with potency 7.0
+Enter spell potency (any non-num to quit): 8
+Spell added with potency 8.0
+Enter spell potency (any non-num to quit): 9
+Spell added with potency 9.0
+Enter spell potency (any non-num to quit): 1
+Spell added with potency 1.0
+Enter spell potency (any non-num to quit): 2
+Spell added with potency 2.0
+Enter spell potency (any non-num to quit): 3
+Spell added with potency 3.0
+Enter spell potency (any non-num to quit): 4
+Spell added with potency 4.0
+Enter spell potency (any non-num to quit): 5
+Spell added with potency 5.0
+Enter spell potency (any non-num to quit): 6
+Spell added with potency 6.0
+Enter spell potency (any non-num to quit): 7
+Spell added with potency 7.0
+Enter spell potency (any non-num to quit): 8
+Spell added with potency 8.0
+Enter spell potency (any non-num to quit): 9
+Spell added with potency 9.0
+Enter spell potency (any non-num to quit): 1
+Spell added with potency 1.0
+Enter spell potency (any non-num to quit): 2
+Spell added with potency 2.0
+Enter spell potency (any non-num to quit): 3
+Spell added with potency 3.0
+Enter spell potency (any non-num to quit): 4
+Spell added with potency 4.0
+Enter spell potency (any non-num to quit): 5
+Spell added with potency 5.0
+Enter spell potency (any non-num to quit): 6
+Spell added with potency 6.0
+Enter spell potency (any non-num to quit): 7
+Spell added with potency 7.0
+Enter spell potency (any non-num to quit): 8
+Spell added with potency 8.0
+Enter spell potency (any non-num to quit): 9
+Spell added with potency 9.0
+Enter spell potency (any non-num to quit): 1
+Spell added with potency 1.0
+Enter spell potency (any non-num to quit): 2
+Spell added with potency 2.0
+Enter spell potency (any non-num to quit): 3
+Spell added with potency 3.0
+Enter spell potency (any non-num to quit): 4
+Spell added with potency 4.0
+Enter spell potency (any non-num to quit): 5
+Spell added with potency 5.0
+Enter spell potency (any non-num to quit): 6
+Spell added with potency 6.0
+Enter spell potency (any non-num to quit): 7
+Spell added with potency 7.0
+Enter spell potency (any non-num to quit): 8
+Spell added with potency 8.0
+Enter spell potency (any non-num to quit): 9
+Spell added with potency 9.0
+Enter spell potency (any non-num to quit): 1
+Spell added with potency 1.0
+Enter spell potency (any non-num to quit): 2
+Spell added with potency 2.0
+Enter spell potency (any non-num to quit): 3
+Spell added with potency 3.0
+Enter spell potency (any non-num to quit): 4
+Spell added with potency 4.0
+Enter spell potency (any non-num to quit): 5
+Spell added with potency 5.0
+Enter spell potency (any non-num to quit): 6
+Spell added with potency 6.0
+Enter spell potency (any non-num to quit): 7
+Spell added with potency 7.0
+Enter spell potency (any non-num to quit): 8
+Spell added with potency 8.0
+Enter spell potency (any non-num to quit): 9
+Spell added with potency 9.0
+Enter spell potency (any non-num to quit): 1
+Spell added with potency 1.0
+Enter spell potency (any non-num to quit): 2
+Spell added with potency 2.0
+Enter spell potency (any non-num to quit): 3
+Spell added with potency 3.0
+Enter spell potency (any non-num to quit): 4
+Spell added with potency 4.0
+Enter spell potency (any non-num to quit): 5
+Spell added with potency 5.0
+Enter spell potency (any non-num to quit): 6
+Spell added with potency 6.0
+Exceeded 50 spell limit, removing oldest spell with potency 1.0
+Enter spell potency (any non-num to quit): 7
+Spell added with potency 7.0
+Exceeded 50 spell limit, removing oldest spell with potency 2.0
+Enter spell potency (any non-num to quit): 8
+Spell added with potency 8.0
+Exceeded 50 spell limit, removing oldest spell with potency 3.0
+Enter spell potency (any non-num to quit): 9
+Spell added with potency 9.0
+Exceeded 50 spell limit, removing oldest spell with potency 4.0
+Enter spell potency (any non-num to quit): h
+~**"Pop" spellcasting mode**~
+Unleashing most recently added spell with potency 9.0
+~**"Load" spellcasting mode**~
+Enter spell potency (any non-num to quit): 5
+Spell added with potency 5.0
+Enter spell potency (any non-num to quit): h
+~**"Unload" spellcasting mode**~
+Unleashing spell with potency 5.0
+Unleashing spell with potency 8.0
+Unleashing spell with potency 7.0
+Unleashing spell with potency 6.0
+Unleashing spell with potency 5.0
+Unleashing spell with potency 4.0
+Unleashing spell with potency 3.0
+Unleashing spell with potency 2.0
+Unleashing spell with potency 1.0
+Unleashing spell with potency 9.0
+Unleashing spell with potency 8.0
+Unleashing spell with potency 7.0
+Unleashing spell with potency 6.0
+Unleashing spell with potency 5.0
+Unleashing spell with potency 4.0
+Unleashing spell with potency 3.0
+Unleashing spell with potency 2.0
+Unleashing spell with potency 1.0
+Unleashing spell with potency 9.0
+Unleashing spell with potency 8.0
+Unleashing spell with potency 7.0
+Unleashing spell with potency 6.0
+Unleashing spell with potency 5.0
+Unleashing spell with potency 4.0
+Unleashing spell with potency 3.0
+Unleashing spell with potency 2.0
+Unleashing spell with potency 1.0
+Unleashing spell with potency 9.0
+Unleashing spell with potency 8.0
+Unleashing spell with potency 7.0
+Unleashing spell with potency 6.0
+Unleashing spell with potency 5.0
+Unleashing spell with potency 4.0
+Unleashing spell with potency 3.0
+Unleashing spell with potency 2.0
+Unleashing spell with potency 1.0
+Unleashing spell with potency 9.0
+Unleashing spell with potency 8.0
+Unleashing spell with potency 7.0
+Unleashing spell with potency 6.0
+Unleashing spell with potency 5.0
+Unleashing spell with potency 4.0
+Unleashing spell with potency 3.0
+Unleashing spell with potency 2.0
+Unleashing spell with potency 1.0
+Unleashing spell with potency 9.0
+Unleashing spell with potency 8.0
+Unleashing spell with potency 7.0
+Unleashing spell with potency 6.0
+Unleashing spell with potency 5.0
+
+Process finished with exit code 0

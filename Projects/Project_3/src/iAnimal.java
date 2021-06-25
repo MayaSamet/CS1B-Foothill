@@ -1,15 +1,18 @@
 import java.util.*;
-import java.lang.Integer;
+import java.lang.*;
 
-public interface iAnimal {
+import static java.lang.String.valueOf;
+
+public interface iAnimal{
     public String getAnimalType();
     public int getIdTag();
     public void setIdTag(int anIdTag);
     public int getMinTemperature();
     public int getMaxTemperature();
+    public int compare(iAnimal a, iAnimal b);
 }
 
-class Salamander implements iAnimal {
+class Salamander implements iAnimal, Comparator<iAnimal> {
     private int IdTag;
 
     public String getAnimalType() {return "Salamander";}
@@ -17,10 +20,13 @@ class Salamander implements iAnimal {
     public void setIdTag(int anIdTag) {this.IdTag = anIdTag;};
     public int getMinTemperature(){return 55;};
     public int getMaxTemperature(){return 65;};
+    public int compare(iAnimal a, iAnimal b) {
+        return valueOf(a.getIdTag()).compareTo(valueOf(b.getIdTag()));
+    }
 }
 
 // Erik Hernandez Rodriguez's Hamster
-class Hamster implements iAnimal {
+class Hamster implements iAnimal, Comparator<iAnimal> {
 
     private int anIdTag;
     private int minTemp = 65;
@@ -44,6 +50,10 @@ class Hamster implements iAnimal {
 
     public int getMaxTemperature() {
         return maxTemp;
+    }
+
+    public int compare(iAnimal a, iAnimal b) {
+        return valueOf(a.getIdTag()).compareTo(valueOf(b.getIdTag()));
     }
 
 }

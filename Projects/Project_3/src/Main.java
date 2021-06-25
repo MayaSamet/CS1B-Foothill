@@ -29,9 +29,11 @@ public class Main {
             if(response.equals("q")){
                 System.out.println("OK, goodbye!");
                 break;
-            } else if (response.equals("a")){
+            } else if (response.equals("a")) {
                 iAnimal animal = createAnimal();
                 addToArrayList(animal);
+            } else if (response.equals("v")) {
+                printZoo(Zoo);
             } else {
                 System.out.println("That's not a valid response!");
             }
@@ -87,5 +89,18 @@ public class Main {
                 System.out.println("Whoops, there is already an animal with that ID tag at this zoo! Try again.");
             }
         }
+    }
+
+    public static void printZoo(ArrayList<iAnimal> zooArray){
+        String zooString;
+        for (int i = 0; i < Zoo.size(); i++) {
+            iAnimal animal = Zoo.get(i);
+            System.out.println("---");
+            System.out.println("Animal ID: " + animal.getIdTag());
+            System.out.println("Species: " + animal.getAnimalType());
+            System.out.println("Enclosure Temp Range (F): " +
+                    animal.getMinTemperature() + " - " + animal.getMaxTemperature());
+        }
+        System.out.println("---");
     }
 }

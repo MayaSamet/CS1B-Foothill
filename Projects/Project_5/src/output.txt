@@ -1,0 +1,32 @@
+---
+New roster created: Russian Escape
+First tourist -
+Tourist name: Svetlana
+Passport number: 40254
+Destination city: Novosibirsk
+---
+New first tourist -
+Tourist name: Nina
+Passport number: 02838
+Destination city: Yakutsk
+---
+New first tourist -
+Tourist name: Andrei
+Passport number: 27710
+Destination city: St. Petersburg
+---
+New first tourist -
+Tourist name: Dmitri
+Passport number: 57299
+Destination city: Sochi
+---
+Svetlana is in Novosibirsk
+Nina is in Yakutsk
+Andrei is in St. Petersburg
+Dmitri is in Sochi
+---
+Meiko isn't in this LinkedList
+---
+There are 4 tourists on the Russian Escape roster
+
+Process finished with exit code 0

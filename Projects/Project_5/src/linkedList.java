@@ -1,5 +1,5 @@
 public class linkedList {
-    static class StackNode
+    class StackNode
     {
         public String touristName;
         // I changed the type of passport number to string because theoretically an ID can start with a 0
@@ -19,18 +19,29 @@ public class linkedList {
         }
     }
 
-    private static StackNode first;
+    private StackNode first;
 
     public linkedList(String n, String p, String d){
         first = new StackNode(n,p,d,null);
+        System.out.println("---");
+        System.out.println("New roster created: Russian Escape");
+        System.out.println("First tourist - ");
+        System.out.println("Tourist name: " + n);
+        System.out.println("Passport number: " + p);
+        System.out.println("Destination city: " + d);
     }
 
-    public static void addFirst(String touristName, String passportNumber, String destinationCity){
+    public void addFirst(String n, String p, String d){
         //adds a new tourist to the beginning of the list
-        first = new StackNode(touristName, passportNumber, destinationCity, first);
+        first = new StackNode(n, p, d, first);
+        System.out.println("---");
+        System.out.println("New first tourist - ");
+        System.out.println("Tourist name: " + n);
+        System.out.println("Passport number: " + p);
+        System.out.println("Destination city: " + d);
     }
 
-    public static String findNode(String touristName){
+    public String findNode(String touristName){
         // finds the tourist's name in the list and returns the destination.
         // Use iteration or recursion to traverse the list
         StackNode p = first;
@@ -41,17 +52,19 @@ public class linkedList {
             if (p.touristName.equals(touristName)){destination = p.destinationCity;}
             p = p.next;
         }
-        //Return or display aggregate results here
-        return destination;
+
+        if (destination.equals("")) {return touristName + " isn't in this LinkedList";}
+        return touristName + " is in " + destination;
     }
 
-    public static int size(){
+    public int size(){
         //returns the number of tourists in the list
         StackNode p = first;
         int counter = 0;
 
         while(p != null)
         {
+            p = p.next;
             counter++;
         }
         //Return or display aggregate results here
